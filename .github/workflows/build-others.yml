@@ -3,6 +3,7 @@ name: CI of mc_rtc with Docker
 # This workflow checks the build-and-install script on base docker images
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'master'
